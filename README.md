@@ -1,2 +1,2 @@
-# Spending_Tracking_App
+# Spending Tracking App
  
