@@ -5,6 +5,7 @@ import { useFirestore } from '../../hooks/useFirestore'
 
 const Liste = ({harcamalar}) => {
   const {belgeSil} = useFirestore('harcamalar')
+  console.log(harcamalar)
   return (
     <List>
       {harcamalar.map((harcama) => (

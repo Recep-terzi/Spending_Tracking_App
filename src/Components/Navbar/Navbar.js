@@ -12,6 +12,7 @@ import {useAuthContext} from "../../hooks/useAuthContext";
 const Navbar = () => {
   const {logout} =useLogout();
   const {user} = useAuthContext();
+  
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" color="primary">

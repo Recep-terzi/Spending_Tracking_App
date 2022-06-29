@@ -9,7 +9,7 @@ import { useCollection } from '../../hooks/useCollection'
 const Home = () => {
   const {user} = useAuthContext()
   const {belge,error} = useCollection('harcamalar',["uid","==",user.uid],["olusturulmaTarihi","desc"])
-
+  console.log(belge)
   return (
     <Container sx={{mt:8 }}>
       <Grid container spacing={10}>
